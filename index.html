@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Michael Caruana-->
+    
+    <title>UAT Space Program</title>
+    <link rel="stylesheet" href="Wk4.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <table class="tableTop">
+        <tr>
+            <!--tr defines a row in a table-->
+            <td><img src="UATspaceLogo-2.jpg" /></td>
+            <td>
+                <h1>
+                    UAT Space Program
+                </h1>
+            </td>
+        </tr>
+</table>
+<table id="data" border="2" width="70%">
+    <col style="width: 35%;">
+    <col style="width: 35%;">
+    <thead>
+        <tr style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <th>Planets</th>
+            <th>Dwarf Planets</th>
+        </tr><!--I made this table for Planets and Dwarf planets-->
+    </thead>
+    <tbody style="font-weight: bolder;">
+        
+        <tr id="Mecury"><td>Mercury</td><td>Pluto</td></tr>
+        <tr id="Venus"><td>Venus</td><td>Ceres</td></tr>
+        <tr id="Earth"><td>Earth</td><td>Makemake</td></tr>
+        <tr id="Mars"><td>Mars</td><td>Haumea</td></tr>
+        <tr id="Jupiter"><td>Jupiter</td><td>Eris</td></tr>
+        <tr id="Saturn"><td>Saturn</td><td></td></tr>
+        <tr id="Uranus"><td>Uranus</td><td></td></tr>
+        <tr id="Neptune"><td>Neptune</td><td></td></tr>
+        
+    </tbody>
+</table><!--I made a second table-->
+<br>
+<table id="data" border="2" width="70%">
+    <col style="width: 35%;">
+    <col style="width: 35%;">
+    <thead><tr style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <th>Start</th>
+        <th>Stop</th>
+    </tr>   <!--The goal is to press the start button and when the stop button is pressed the-->
+            <!--time between presses will appear in the stop window-->
+    </thead> 
+    <tbody style="font-weight: bolder;">
+        <tr id="seconds"><td>Time Elapsed:</td><td>15 seconds</td></tr>
+    </tbody>
+    <br>
+    <button  onclick="start();" id="startButton">Start</button><!--alternate switching buttons-->
+    <button onclick="stop();"  id="stopButton">Stop</button><!--on and off-->
+</table> 
+</body>
+</html>
